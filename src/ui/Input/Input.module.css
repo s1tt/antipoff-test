@@ -1,0 +1,51 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  line-height: 22px;
+  position: relative;
+  font-size: 16px;
+}
+
+.label span {
+  margin-bottom: 8px;
+}
+
+.input {
+  background-color: var(--gray-color);
+  padding: 16px 8px 16px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+.input[type='password'] {
+  padding: 16px 40px 16px 16px;
+}
+
+.input::placeholder {
+  color: var(--placeholder-color);
+}
+
+.iconWrapper {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 42px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.icon {
+  fill: var(--placeholder-color);
+}
+
+.error {
+  color: var(--error-color);
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 5px;
+}
+
+.inputError {
+  outline: 1px solid var(--error-color);
+}

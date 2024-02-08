@@ -1,0 +1,18 @@
+.card {
+  width: 100%;
+}
+
+.cardLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 35px 18px 17px 18px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0.9960451126098633px 3.984180450439453px 0px #33333326;
+}
+
+.likeBtn {
+  align-self: flex-end;
+}

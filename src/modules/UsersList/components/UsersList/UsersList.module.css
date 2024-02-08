@@ -1,0 +1,31 @@
+.content {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 48px 0;
+
+  @media (max-width: 768px) {
+    margin: 32px 0;
+  }
+}
+
+.cards {
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 305px);
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 56px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 32px;
+  }
+}
+
+.paginationBtn {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}

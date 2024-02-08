@@ -1,0 +1,22 @@
+:root {
+  --main-color: #512689;
+
+  --gray-color: #f8f8f8;
+  --placeholder-color: #808185;
+  --white-color: #ffffff;
+  --black-color: #151317;
+  --error-color: #ff6161;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
