@@ -29,7 +29,7 @@ Redux-toolkit(rtk-query)
 
 <h2>🚀 ДЕМО</h2>
 
-[https://antipoff-test.vercel.app/](antipoff-test.vercel.app)
+[https://antipoff-test.vercel.app/](https://antipoff-test.vercel.app/)
 
 <h2>Скриншот проекта:</h2>
 
