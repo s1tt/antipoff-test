@@ -91,7 +91,7 @@ const RegistrationForm = () => {
           name='userName'
           register={register}
           error={errors}
-          placeholder='Артур'
+          placeholder='Введите ваше имя'
           label='Имя'
           id='userName'
         />
